@@ -51,6 +51,19 @@ a {
   border-radius: 0.5rem 1.5rem;
 }
 
+.buttons{
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.buttons svg {
+  width: 4rem;
+}
+
+
 /* Hero Section */
 
 #hero {
@@ -98,14 +111,3 @@ a {
   color: var(--tert-color);
 }
 
-#hero .bottom .buttons{
-  margin-top: 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 2rem;
-}
-
-#hero .bottom .buttons svg {
-  width: 4rem;
-}
