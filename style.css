@@ -55,7 +55,7 @@ a {
   margin-top: 2.5rem;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -69,7 +69,7 @@ a {
 #hero {
   height: 100vh;
   width: 100%;
-  padding-top: 10rem;
+  padding-top: 7rem;
 }
 
 #hero .container{
@@ -77,10 +77,13 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  text-align: center;
 }
 
 #hero .container .top{
   flex: 8;
+  padding-bottom: 2rem;
 }
 #hero .container .bottom{
   flex: 6;
@@ -88,11 +91,16 @@ a {
 
 #hero .container img {
   border-radius: 50%;
+  border-style: solid;
+  border-width: 1rem;
+  border-color: var(--prim-color);
+  width: 30%;
+  background-color: var(--prim-color)
 }
 
 #hero .bottom .flavortext {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 700;
   color: var(--sec-color);
   text-transform: uppercase;
 }
