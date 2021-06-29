@@ -25,3 +25,39 @@ html {
 body{
   background-color: var(--bg-color);
 }
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Hero Section */
+
+#hero {
+  height: 100vh;
+  width: 100%;
+  padding-top: 10rem;
+}
+
+#hero .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+#hero .container .top{
+  flex: 8;
+}
+#hero .container .bottom{
+  flex: 6;
+}
