@@ -103,6 +103,7 @@ a {
   font-weight: 700;
   color: var(--sec-color);
   text-transform: uppercase;
+  margin: 0.5rem;
 }
 
 #hero .bottom .heading {
