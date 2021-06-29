@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Poppins:wght@600&family=Roboto+Mono:wght@300;500&display=swap');
+
+/* Vars */
+
+:root {
+  --prim-color: #222C5F;
+  --sec-color: #9AB044;
+  --tert-color: #1C57CB;
+  --bg-color: #8DC4FC;
+}
+
+
+/* Global Styles */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 10px;
+}
+
+body{
+  background-color: var(--bg-color);
+}
