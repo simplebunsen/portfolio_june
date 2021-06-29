@@ -42,6 +42,15 @@ a {
   max-width: 1024px;
 }
 
+.button-primary {
+  display: inline-block;
+  background-color: var(--sec-color);
+  color: white;
+  font-size: 2rem;
+  padding: .5rem 1.5rem;
+  border-radius: 0.5rem 1.5rem;
+}
+
 /* Hero Section */
 
 #hero {
@@ -69,7 +78,7 @@ a {
 }
 
 #hero .bottom .flavortext {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
   color: var(--sec-color);
   text-transform: uppercase;
