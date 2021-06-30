@@ -88,16 +88,6 @@ a {
   flex: 6;
 }
 
-#hero .container img {
-  border-radius: 50%;
-  border-style: solid;
-  border-width: 1rem;
-  border-color: var(--prim-color);
-  width: 100%;
-  max-width: 256px;
-  background-color: var(--prim-color)
-}
-
 #hero .bottom .flavortext {
   font-size: 2rem;
   font-weight: 700;
@@ -124,3 +114,35 @@ a {
   color: var(--tert-color);
 }
 
+#hero .top img {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1rem;
+  border-color: var(--prim-color);
+  width: 100%;
+  max-width: 256px;
+  background-color: var(--prim-color)
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 9px;
+  }
+
+  #hero .container .bottom .heading {
+    font-size: 4rem;
+    margin-top: 1rem;
+  }
+
+  #hero .container .bottom .intro {
+    margin-top: 1rem;
+  }
+
+  #hero {
+    padding-top: 1rem;
+  }
+
+  .buttons {
+    gap: 1rem;
+  }
+}
