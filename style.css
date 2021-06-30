@@ -83,7 +83,6 @@ a {
 
 #hero .container .top{
   flex: 8;
-  padding-bottom: 2rem;
 }
 #hero .container .bottom{
   flex: 6;
@@ -94,16 +93,21 @@ a {
   border-style: solid;
   border-width: 1rem;
   border-color: var(--prim-color);
-  width: 30%;
+  width: 100%;
+  max-width: 256px;
   background-color: var(--prim-color)
 }
 
 #hero .bottom .flavortext {
   font-size: 2rem;
   font-weight: 700;
-  color: var(--sec-color);
+  background-color: var(--sec-color);
   text-transform: uppercase;
-  margin: 0.5rem;
+  text-shadow: 1px 3px white;
+  margin: 2rem;
+  padding: 0.5rem;
+  border-style: inset;
+  border-color: var(--sec-color);
 }
 
 #hero .bottom .heading {
