@@ -167,6 +167,7 @@ a {
   background-color: var(--prim-color)
 }
 
+/* Smaller Screen rules */
 @media only screen and (max-width: 768px) {
   html {
     font-size: 9px;
@@ -188,4 +189,25 @@ a {
   .buttons {
     gap: 1rem;
   }
+}
+
+/* Branches Section */
+
+#branches{
+  padding: 15rem 0;
+}
+
+#branches .all-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#branches .all-items .item {
+  padding: 2rem;
+  margin: 1rem;
+  border-style: inset;
+  border-color: var(--tert-color);
+  border-radius: 1rem;
+  background-color: var(--tert-color);
 }
