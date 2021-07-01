@@ -206,8 +206,26 @@ a {
 #branches .all-items .item {
   padding: 2rem;
   margin: 1rem;
-  border-style: inset;
-  border-color: var(--tert-color);
+  border-style: ridge;
+  border-color: var(--bg-color);
   border-radius: 1rem;
-  background-color: var(--tert-color);
+  background-color: var(--bg-color);
+  filter: brightness(108%);
+  color: var(--tert-color);
+}
+
+#branches .item:nth-child(1):hover{
+  background-color: #308C83;
+  border-color: #308C83;
+  color: white;
+}
+#branches .item:nth-child(2):hover{
+  background-color: #38C08F;
+  border-color: #38C08F;
+  color: white;
+}
+#branches .item:nth-child(3):hover{
+  background-color: #008A5D;
+  border-color: #008A5D;
+  color: white;
 }
