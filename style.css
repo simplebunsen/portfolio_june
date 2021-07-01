@@ -26,6 +26,12 @@ body{
   background-color: var(--bg-color);
 }
 
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 img{
   width: 100%;
   height: 100%;
@@ -68,12 +74,9 @@ a {
 /* Hero Section */
 
 #hero {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   padding-top: 7rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 #hero .container{
@@ -81,7 +84,6 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
   text-align: center;
 }
 
