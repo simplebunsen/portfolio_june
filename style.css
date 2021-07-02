@@ -209,16 +209,7 @@ a {
 
 #branches{
   padding: 15rem 0;
-}
-
-/*temporary!!!*/
-#branches .heading-container{
-  background-color: whitesmoke;
-  padding: 3rem;
-  position: relative;
-  text-align: center;
-  font-size: 4rem;
-  margin-bottom: 2rem;
+  background-color: white;
 }
 
 #branches .all-items {
@@ -231,11 +222,42 @@ a {
   padding: 2rem;
   margin: 1rem;
   border-style: ridge;
-  border-color: var(--bg-color);
+  border-color: #EFEDFF;
   border-radius: 1rem;
-  background-color: var(--bg-color);
-  filter: brightness(108%);
+  background-color: #EFEDFF;
+}
+
+
+#branches .item .icon {
+  width: 7rem;
+  height: 7rem;
+  padding: 1rem;
+  background-color: yellow;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+#branches .item .item-heading {
+  font-weight: 500;
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 1.5rem;
+  color: var(--prim-color);
+}
+
+#branches .item .item-desc {
   color: var(--tert-color);
+  font-size: 1.5rem;
+}
+
+#branches .item:nth-child(1) .icon {
+  background-color: #773C76;
+}
+#branches .item:nth-child(2) .icon {
+  background-color: #BF5377;
+}
+#branches .item:nth-child(3) .icon {
+  background-color: #F17C69;
 }
 
 #branches .item:nth-child(1):hover{
