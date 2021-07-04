@@ -331,10 +331,14 @@ a {
 
 #about .card{
   padding: 2rem;
+  flex: 3;
 }
 
 #about .card img{
   box-shadow: 0px 0px 20px var(--tert-color);
   border-radius: 5%;
-  max-width: 450px;
+}
+
+#about .about-text {
+  flex: 7;
 }
