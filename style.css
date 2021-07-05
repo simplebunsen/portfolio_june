@@ -333,6 +333,7 @@ a {
   padding: 2rem;
   flex: 3;
   position: relative;
+  max-width: 400px;
 }
 
 #about .card .img-wrapper{
@@ -362,7 +363,7 @@ a {
 #about .card .card-title{
   position: absolute;
   bottom: 8rem;
-  left: 3rem;
+  left: 5rem;
   color: white;
   font-size: 3rem;
 }
@@ -371,7 +372,18 @@ a {
 #about .card .card-desc{
   position: absolute;
   bottom: 6rem;
-  left: 3rem;
+  left: 5rem;
   color:whitesmoke;
   font-size: 1.5rem;
+}
+
+#about .about-text {
+  font-size: 1.8rem;
+  color: var(--prim-color);
+}
+
+@media only screen and (max-width: 1024px) {
+  #about .wrapper {
+    flex-direction: column;
+  }
 }
