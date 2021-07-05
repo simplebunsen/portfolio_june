@@ -332,13 +332,28 @@ a {
 #about .card{
   padding: 2rem;
   flex: 3;
-}
-
-#about .card img{
-  box-shadow: 0px 0px 20px var(--tert-color);
-  border-radius: 5%;
   position: relative;
 }
+
+#about .card .img-wrapper{
+  box-shadow: 0px 0px 20px var(--tert-color);
+  position: relative;
+  border-radius: 5%;
+  min-width: 1;
+  min-height: 1;
+  overflow: hidden;
+}
+
+#about .card .img-wrapper::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.82) 12%, rgba(255,255,255,0) 39%);
+  width: 100%;
+  height: 100%;
+}
+
 
 #about .about-text {
   flex: 7;
