@@ -77,6 +77,12 @@ a {
 	background-color: transparent;
 	border: 2px solid var(--sec-color);
 	color: var(--sec-color);
+  transform: scale(92%);
+}
+
+.buttons .button-primary.outline:hover {
+  transform: scale(100%);
+  filter: brightness(80%);
 }
 
 .buttons{
