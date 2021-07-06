@@ -7,6 +7,7 @@
   --sec-color: #9AB044;
   --tert-color: #1C57CB;
   --bg-color: #8DC4FC;
+  --card-bg: #EFEDFF;
 }
 
 /*Temp*/
@@ -237,7 +238,8 @@ a {
 /* Branches Section */
 
 #branches{
-  padding: 10rem 0;
+  padding: 8rem 0;
+  margin: 2rem 0;
   background-color: white;
 }
 
@@ -251,9 +253,9 @@ a {
   padding: 2rem;
   margin: 1rem;
   border-style: ridge;
-  border-color: #EFEDFF;
+  border-color: var(--card-bg);
   border-radius: 1rem;
-  background-color: #EFEDFF;
+  background-color: var(--card-bg);
   max-width: 350px;
 }
 
@@ -360,6 +362,11 @@ a {
 
 #about .about-text {
   flex: 7;
+  background-color: var(--card-bg);
+  border-style: ridge;
+  border-radius: 1.5rem;
+  border-color: var(--card-bg);
+  padding: 3rem;
 }
 
 #about .card .card-title{
@@ -397,5 +404,14 @@ a {
   }
   #about .about-text {
     text-align: center;
+  }
+
+  #about .about-text .buttons{
+    flex-direction: column;
+  }
+
+  #about .about-text .buttons a{
+    width: 100%;
+    max-width: 500px;
   }
 }
