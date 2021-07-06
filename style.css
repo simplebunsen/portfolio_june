@@ -15,6 +15,7 @@
   width: 5rem;
   top: 2rem;
   right: 2rem;
+  z-index: 1000;
 }
 
 
@@ -334,6 +335,7 @@ a {
   flex: 3;
   position: relative;
   max-width: 400px;
+  font-family: 'Poppins', sans-serif;
 }
 
 #about .card .img-wrapper{
@@ -363,7 +365,7 @@ a {
 #about .card .card-title{
   position: absolute;
   bottom: 8rem;
-  left: 5rem;
+  left: 4rem;
   color: white;
   font-size: 3rem;
 }
@@ -372,18 +374,28 @@ a {
 #about .card .card-desc{
   position: absolute;
   bottom: 6rem;
-  left: 5rem;
+  left: 4rem;
   color:whitesmoke;
   font-size: 1.5rem;
 }
 
-#about .about-text {
-  font-size: 1.8rem;
-  color: var(--prim-color);
+#about .about-description {
+  font-size: 2rem;
+  color: var(--tert-color);
+}
+
+#about .about-heading {
+  font-size: 5rem;
+  color:  var(--prim-color);
+  margin: 2rem 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media only screen and (max-width: 1024px) {
   #about .wrapper {
     flex-direction: column;
+  }
+  #about .about-text {
+    text-align: center;
   }
 }
