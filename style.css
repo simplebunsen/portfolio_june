@@ -73,6 +73,12 @@ a {
   transform: scale(105%);
 }
 
+.buttons .button-primary.outline {
+	background-color: transparent;
+	border: 2px solid var(--sec-color);
+	color: var(--sec-color);
+}
+
 .buttons{
   margin-top: 2.5rem;
   display: flex;
@@ -369,6 +375,12 @@ a {
   padding: 3rem;
 }
 
+#about .about-text .buttons {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content:start;
+}
+
 #about .card .card-title{
   position: absolute;
   bottom: 8rem;
@@ -387,14 +399,13 @@ a {
 }
 
 #about .about-description {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--tert-color);
 }
 
 #about .about-heading {
-  font-size: 5rem;
+  font-size: 3.5rem;
   color:  var(--prim-color);
-  margin: 2rem 0;
   font-family: 'Poppins', sans-serif;
 }
 
