@@ -471,3 +471,19 @@ a {
   margin-left: 0;
   margin-right: -7rem;
 }
+
+#projects .item .left .img{
+  height: 500px;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 20px var(--tert-color);
+}
+
+#projects .item .left .img img{
+  object-fit: cover;
+  transition: .4s ease transform;
+}
+
+#projects .item:hover .left .img img{
+  transform: scale(1.1);
+}
