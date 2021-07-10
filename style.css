@@ -6,6 +6,7 @@
   --prim-color: #222C5F;
   --sec-color: #9AB044;
   --tert-color: #1C57CB;
+  --sec-gray:rgb(75, 75, 75);
   --bg-color: #8DC4FC;
   --card-bg: #EFEDFF;
 }
@@ -440,6 +441,10 @@ a {
   padding: 10rem 0;
 }
 
+#projects .buttons{
+  flex-direction: row;
+}
+
 #projects .item {
   display: flex;
   align-items: center;
@@ -486,4 +491,34 @@ a {
 
 #projects .item:hover .left .img img{
   transform: scale(1.1);
+}
+
+#projects .item .right .project-title{
+  color: var(--prim-color);
+  font-size: 2.5rem;
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 1rem;
+}
+
+#projects .item .right .project-subtitle{
+  color: var(--sec-gray);
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+#projects .item .right .project-desc{
+  color: var(--tert-color);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+#projects .item .right .buttons .external-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#projects .item .right .buttons .external-link svg{
+  width: 2.5rem;
 }
