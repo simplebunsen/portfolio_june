@@ -79,6 +79,7 @@ a {
 	background-color: transparent;
 	border: 2px solid var(--sec-color);
 	color: var(--sec-color);
+  padding: calc(.5rem - 2px) calc(1.5rem - 2px);
 }
 
 .buttons .button-primary.outline:hover {
