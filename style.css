@@ -444,4 +444,30 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 15rem;
+}
+
+#projects .item:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+#projects .item .left {
+  flex: 1;
+}
+
+#projects .item .right {
+  flex: 1;
+  margin-left: -7rem;
+  background-color: var(--card-bg);
+  padding: 5rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px #00000028;
+  z-index: 2;
+}
+
+#projects .item:nth-child(even) .right{
+  margin-left: 0;
+  margin-right: -7rem;
 }
