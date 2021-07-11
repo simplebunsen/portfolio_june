@@ -523,3 +523,40 @@ a {
 #projects .item .right .buttons .external-link svg{
   width: 2.5rem;
 }
+
+@media only screen and (max-width: 768px){
+  #projects .item {
+    flex-direction: column;
+    margin-bottom: 7rem;
+  }
+  #projects .item .left {
+    width: 100%;
+  }
+  #projects .item .right {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -100px;
+  }
+
+  #projects .item:nth-child(even) {
+    flex-direction: column;
+  }
+  #projects .item:nth-child(even) .left {
+    width: 100%;
+  }
+  #projects .item:nth-child(even) .right {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -100px;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  #projects .item .right .buttons {
+    flex-direction: column;
+  }
+  #projects .item .right .buttons a{
+    width: 100%;
+    text-align: center;
+  }
+}
