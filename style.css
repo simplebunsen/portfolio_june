@@ -635,3 +635,25 @@ a {
 #footer footer .col-4 ul li a{
   min-width: 5rem;
 }
+
+@media only screen and (max-width: 768px){
+  #footer footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #footer footer .col-1,
+  #footer footer .col-2,
+  #footer footer .col-3,
+  #footer footer .col-4 {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  #footer footer .col-4 ul{
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
