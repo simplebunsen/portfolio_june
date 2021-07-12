@@ -267,13 +267,13 @@ a {
 #hero .bottom .flavortext {
   font-size: 2rem;
   font-weight: 700;
-  background-color: var(--sec-color);
   text-transform: uppercase;
-  text-shadow: 1px 3px white;
+  color: var(--prim-color);
   margin: 2rem;
   padding: 0.5rem;
-  border-style: inset;
-  border-color: var(--sec-color);
+  background-color: var(--card-bg);
+  border-radius: 1rem;
+  box-shadow: 0 0 20px #00000028;
 }
 
 #hero .bottom .heading {
