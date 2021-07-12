@@ -279,6 +279,23 @@ a {
   padding: 1rem;
 }
 
+#hero .bottom .flavortext .flavor-cursor{
+  display:inline-block;
+  font-weight: 100;
+  transform: scaleY(170%) translateY(-1px);
+  font-family: serif;
+  animation: cursor-blink 1s steps(1, end) infinite;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
 #hero .bottom .heading {
   font-size: 6rem;
   font-family: 'Montserrat', sans-serif;
