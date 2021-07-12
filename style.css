@@ -268,9 +268,9 @@ a {
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: var(--prim-color);
+  color: var(--tert-color);
   margin: 2rem;
-  padding: 0.5rem;
+  padding: 1rem;
   background-color: var(--card-bg);
   border-radius: 1rem;
   box-shadow: 0 0 20px #00000028;
