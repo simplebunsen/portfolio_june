@@ -377,12 +377,11 @@ a {
 
 #branches .all-items .item {
   padding: 2rem;
-  margin: 1rem;
-  border-style: ridge;
-  border-color: var(--card-bg);
+  margin: 3rem 2rem;
   border-radius: 1rem;
   background-color: var(--card-bg);
   max-width: 350px;
+  box-shadow: 0 0 20px #00000028;
 }
 
 
@@ -419,18 +418,18 @@ a {
 }
 
 #branches .item:nth-child(1):hover{
-  background-color: #308C83;
-  border-color: #308C83;
+  background-color: #AD6EAA;
+  box-shadow: 0 0 20px #773C76;
   color: white;
 }
 #branches .item:nth-child(2):hover{
-  background-color: #38C08F;
-  border-color: #38C08F;
+  background-color: #FA88AB;
+  border-color: #BF5377;
   color: white;
 }
 #branches .item:nth-child(3):hover{
-  background-color: #008A5D;
-  border-color: #008A5D;
+  background-color: #FFCCB5;
+  border-color: #F17C69;
   color: white;
 }
 
