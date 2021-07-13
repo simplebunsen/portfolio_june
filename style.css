@@ -377,9 +377,10 @@ a {
 }
 
 #hero .bottom .intro {
-  margin-top: 3rem;
+  margin-top: 2rem;
   max-width: 400px;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
+  font-weight: 500;
   color: var(--tert-color);
   text-align: center;
   margin: auto;
@@ -464,7 +465,8 @@ a {
 
 #branches .item .item-desc {
   color: var(--tert-color);
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 500;
   text-align: justify;
 }
 
@@ -579,7 +581,7 @@ a {
 }
 
 #about .about-description {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--tert-color);
   text-align: justify;
 }
@@ -595,6 +597,10 @@ a {
     flex-direction: column;
   }
   #about .about-text {
+    text-align: center;
+  }
+
+  #about .about-description {
     text-align: center;
   }
 
@@ -666,20 +672,20 @@ a {
 
 #projects .item .right .project-title{
   color: var(--prim-color);
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-family: Montserrat, sans-serif;
   margin-bottom: 1rem;
 }
 
 #projects .item .right .project-subtitle{
   color: var(--sec-gray);
-  font-size: 1.7rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
 #projects .item .right .project-desc{
   color: var(--tert-color);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 2rem;
 }
 
@@ -831,6 +837,7 @@ a {
 
 /* Copyright style */
 #copyright{
+  font-family: "Roboto Mono", sans-serif;
   padding: 1rem 0;
   background-color: var(--sec-dark-blue);
   color: white;
