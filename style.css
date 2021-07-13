@@ -20,7 +20,6 @@
 }
 
 html {
-  /*CHANGED THIS*/
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   font-size: 10px;
@@ -54,6 +53,7 @@ a {
 }
 
 .button-primary {
+  font-family: 'Roboto Mono', sans-serif;
   display: inline-block;
   background-color: var(--sec-color);
   color: white;
