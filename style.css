@@ -95,7 +95,9 @@ a {
 
 
 .section-heading {
-  font-size: clamp(3rem, -0.875rem + 8.333vw, 8rem);
+  font-size: clamp(3.2rem, calc(3.2rem + ((1vw - 0.32rem) * 4.25)), 10rem);
+  min-height: 0vw;
+  min-height: 0vw;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.5rem;
