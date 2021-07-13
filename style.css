@@ -247,6 +247,43 @@ a {
   color: crimson;
 }
 
+@media only screen and (max-width: 768px) {
+  #nav-symbol {
+    right: 2rem;
+    top: 1rem;
+  }
+
+  #nav-symbol .icon{
+    width: 6rem;
+    height: 6rem;
+  }
+
+  #nav-content ul li a::after{
+    display: none;
+  }
+
+  #nav-content .section-heading {
+    text-align: right;
+    margin-bottom: 4rem;
+  }
+
+  #nav-content .section-heading::before {
+    display: none;
+  }
+
+  #nav-content nav ul{
+    text-align: right;
+  }
+
+  #nav-content ul li a {
+    font-size: 4rem;
+  }
+
+  #nav-content .wrapper {
+    width: 80%;
+  }
+}
+
 /* Hero Section */
 
 #hero {
@@ -280,6 +317,7 @@ a {
 }
 
 #hero .bottom .flavortext .flavor-cursor{
+  color: black;
   display:inline-block;
   font-weight: 100;
   transform: scaleY(170%) translateY(-1px);
