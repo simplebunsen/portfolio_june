@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Poppins:wght@600&family=Roboto+Mono:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Work+Sans&family=Poppins:wght@600&family=Roboto+Mono:wght@300;500&display=swap');
 
 /* Vars */
 
@@ -20,7 +20,9 @@
 }
 
 html {
-  font-family: 'Roboto Mono', sans-serif;
+  /*CHANGED THIS*/
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
   font-size: 10px;
 }
 
@@ -308,6 +310,7 @@ a {
 }
 
 #hero .bottom .flavortext {
+  font-family: 'Roboto Mono', sans-serif;
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -578,6 +581,7 @@ a {
 #about .about-description {
   font-size: 1.5rem;
   color: var(--tert-color);
+  text-align: justify;
 }
 
 #about .about-heading {
