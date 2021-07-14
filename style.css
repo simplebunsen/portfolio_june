@@ -850,20 +850,31 @@ a {
 
 /* All Projects Page */
 
-#art-projects-heading {
+#all-projects .projects-heading {
   background-color: white;
 }
 
-#art-projects{
-  padding: 5rem 0;
+#all-projects .projects-heading .section-heading{
+  margin-top: 8rem;
+}
+
+#all-projects .projects-section{
+  padding: 10rem 0;
+}
+
+#all-projects #art-projects{
+  background-image: linear-gradient(to right, #ffccb5, #fdbea4, #fbaf95, #f8a086, #f59179, #f59179, #f59179, #f59179, #f8a086, #fbaf95, #fdbea4, #ffccb5);
+}
+
+#all-projects #tech-projects{
   background-image: linear-gradient(to right, #ffaec7, #f39db7, #e78ca8, #db7b99, #cf6a8a, #cf6a8a, #cf6a8a, #cf6a8a, #db7b99, #e78ca8, #f39db7, #ffaec7);
 }
 
-#art-projects .container {
+#all-projects .projects-section .container {
   max-width: 1500px;
 }
 
-#art-projects .wrapper{
+#all-projects .projects-section .wrapper{
   display: flex;
   justify-content: center;
   align-content: center;
@@ -871,29 +882,29 @@ a {
   flex-wrap: wrap;
 }
 
-#art-projects .item {
+#all-projects .projects-section .item {
   display: inline-block;
   width: 35rem;
   position: relative;
   transition: all .2s ease;
 }
 
-#art-projects .item:hover {
+#all-projects .projects-section .item:hover {
   transform: scale(105%);
 }
 
-#art-projects .item a{
+#all-projects .projects-section .item a{
   width: 100%;
   height: 100%;
 }
 
-#art-projects .item .preview-img{
+#all-projects .projects-section .item .preview-img{
   overflow: hidden;
   position: relative;
   border-radius: 1rem 1rem 0 0;
 }
 
-#art-projects .item .button{
+#all-projects .projects-section .item .button{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -901,26 +912,26 @@ a {
   opacity: 0;
 }
 
-#art-projects .item:hover .button{
+#all-projects .projects-section .item:hover .button{
   opacity: 1;
 }
 
-#art-projects .item .preview-img .button-primary.outline{
+#all-projects .projects-section .item .preview-img .button-primary.outline{
 	border: 2px solid white;
 	color: white;
 }
 
-#art-projects .item .text-container{
+#all-projects .projects-section .item .text-container{
   padding: 2rem
 }
 
-#art-projects .item .project-title{
+#all-projects .projects-section .item .project-title{
   color: var(--prim-color);
   font-size: 3rem;
   font-family: Montserrat, sans-serif;
 }
 
-#art-projects .item .bubbles {
+#all-projects .projects-section .item .bubbles {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -928,7 +939,7 @@ a {
   flex-wrap: wrap;
 }
 
-#art-projects .item .bubbles .bubble {
+#all-projects .projects-section .item .bubbles .bubble {
   font-family: "Roboto Mono";
   font-size: 1.5rem;
   padding: .4rem .7rem;
@@ -947,12 +958,12 @@ a {
   margin-bottom: 0.5rem;
 }
 
-#art-projects .item .bubbles .bubble.orange {
+#all-projects .projects-section .item .bubbles .bubble.orange {
   color: #856404;
   background-color: #fff3cd;
   border-color: #ffeeba;
 }
 
-#art-projects .item .bubbles .bubble .icon{
+#all-projects .projects-section .item .bubbles .bubble .icon{
  transform: scale(150%);
 }
