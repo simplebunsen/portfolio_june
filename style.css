@@ -859,6 +859,10 @@ a {
   background-image: linear-gradient(to right, #ffaec7, #f39db7, #e78ca8, #db7b99, #cf6a8a, #cf6a8a, #cf6a8a, #cf6a8a, #db7b99, #e78ca8, #f39db7, #ffaec7);
 }
 
+#art-projects .container {
+  max-width: 1500px;
+}
+
 #art-projects .wrapper{
   display: flex;
   justify-content: center;
