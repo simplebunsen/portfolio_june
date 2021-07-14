@@ -69,14 +69,14 @@ a {
   transform: scale(105%);
 }
 
-.buttons .button-primary.outline {
+.button-primary.outline {
 	background-color: transparent;
 	border: 2px solid var(--sec-color);
 	color: var(--sec-color);
   padding: calc(.5rem - 2px) calc(1.5rem - 2px);
 }
 
-.buttons .button-primary.outline:hover {
+.button-primary.outline:hover {
   transform: scale(105%);
   filter: brightness(80%);
 }
@@ -846,4 +846,109 @@ a {
   font-size: 1.7rem;
   text-align: center;
   box-shadow: 0px 0px 20px #ffffff1a;
+}
+
+/* All Projects Page */
+
+#art-projects-heading {
+  background-color: white;
+}
+
+#art-projects{
+  padding: 5rem 0;
+  background-image: linear-gradient(to right, #ffaec7, #f39db7, #e78ca8, #db7b99, #cf6a8a, #cf6a8a, #cf6a8a, #cf6a8a, #db7b99, #e78ca8, #f39db7, #ffaec7);
+}
+
+#art-projects .wrapper{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+#art-projects .item {
+  display: inline-block;
+  width: 35rem;
+  position: relative;
+  transition: all .2s ease;
+}
+
+#art-projects .item:hover {
+  transform: scale(105%);
+}
+
+#art-projects .item a{
+  width: 100%;
+  height: 100%;
+}
+
+#art-projects .item .preview-img{
+  overflow: hidden;
+  position: relative;
+  border-radius: 1rem 1rem 0 0;
+}
+
+#art-projects .item .button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  opacity: 0;
+}
+
+#art-projects .item:hover .button{
+  opacity: 1;
+}
+
+#art-projects .item .preview-img .button-primary.outline{
+	border: 2px solid white;
+	color: white;
+}
+
+#art-projects .item .text-container{
+  padding: 2rem
+}
+
+#art-projects .item .project-title{
+  color: var(--prim-color);
+  font-size: 3rem;
+  font-family: Montserrat, sans-serif;
+}
+
+#art-projects .item .bubbles {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .3rem;
+  flex-wrap: wrap;
+}
+
+#art-projects .item .bubbles .bubble {
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+  padding: .5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 3rem;
+  width: fit-content;
+  border-style: solid;
+  border-radius: 1.5rem;
+  border-width: 2px;
+  border-color: #d6d8db;
+  background-color: #e2e3e5;
+  color: #383d41;  
+  margin-bottom: 0.5rem;
+}
+
+#art-projects .item .bubbles .bubble.orange {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+#art-projects .item .bubbles .bubble .icon{
+ transform: scale(150%);
 }
