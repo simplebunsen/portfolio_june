@@ -970,6 +970,12 @@ a {
   border-color: #c3e6cb;
 }
 
+#all-projects .projects-section .item .bubbles .bubble.blue{
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+
 #all-projects .projects-section .item .bubbles .bubble ion-icon{
  transform: scale(150%);
 }
