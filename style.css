@@ -927,7 +927,7 @@ a {
 #art-projects .item .bubbles .bubble {
   font-family: "Roboto Mono";
   font-size: 1.5rem;
-  padding: .5rem 1rem;
+  padding: .4rem .7rem;
   display: flex;
   align-items: center;
   justify-content: center;
